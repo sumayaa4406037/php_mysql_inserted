@@ -1,0 +1,95 @@
+
+
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+  
+  
+}
+.container{
+    width: 30%;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background:  bisque;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.3);
+    padding: 30px 20px;
+    border-radius: 5px;
+}
+.container h1{
+    text-align: center;
+    padding:20px 0px;
+}
+.container form .input-group input{
+width: 100%;
+padding:8px 5px;
+margin-bottom:10px;
+display: block;
+font-size: 20px;
+border: 2px solid #000000;
+border-radius: 5px;
+position: relative;
+
+}
+
+.container form button{
+    padding:8px 10px;
+    font-size: 20px;
+    color:rgb(246, 246, 246);
+    background: rgb(232, 15, 134);
+    border:none;
+    border-radius: 5px;
+    transition:0.5s;
+    display: block;
+    width: 100%;
+    font-weight: 600;
+}
+.container form button:hover{
+    background:  rgb(231, 200, 163);
+}
+.container form h3 {
+    margin-top: 10px; 
+    text-align: center;
+
+}
+
+
+#icon1{
+    position: absolute;
+    top:120px;
+    right:25px;
+    color: rgb(232, 15, 134) ;
+}
+#icon2{
+    position: absolute;
+    top:170px;
+    right:26px;
+    color: rgb(232, 15, 134) ;
+}
+#icon3{
+    position: absolute;
+    top:222px;
+    right:25px;
+    color: rgb(232, 15, 134) ;
+}
+#icon4{
+    position: absolute;
+    top:275px;
+    right:26px;
+    color: rgb(232, 15, 134) ;
+}
+
+#icon6{
+    position: absolute;
+    top:330px;
+    right:26px;
+    color: rgb(232, 15, 134) ;
+}
+#icon7{
+    position: absolute;
+    top:380px;
+    right:26px;
+    color: rgb(232, 15, 134) ;
+}
